@@ -133,7 +133,7 @@ var App = {
         this.echo("|  [[g;#B2D100;]Languages] ");
         this.echo("|  " + commandText('C') + "                      [[g;#D13F00;]8+ years ");
         this.echo("|  " + commandText('C++') + "                    [[g;#D13F00;]6+ years ");
-        this.echo("|  " + commandText('Java') + "                   [[g;#D13F00;]8+ years ");
+        this.echo("|  " + commandText('Java') + "                   [[g;#D13F00;]5+ years ");
         this.echo("|  " + commandText('Swift') + "                  [[g;#D13F00;]2+ years ");
         this.echo("|  " + commandText('C#') + "                     [[g;#D13F00;]2+ years ");
         this.echo("|");
