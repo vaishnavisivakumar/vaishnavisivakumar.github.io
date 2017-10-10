@@ -58,10 +58,11 @@ var App = {
         this.echo("|  " + commandText("experience") + "         - Professional Experience");
         this.echo("|  " + commandText("projects") + "           - Academic projects");
         this.echo("|  " + commandText("education") + "          - Related Coursework");
+        this.echo("|  " + commandText("research") + "           - Research work");
         this.echo("|  " + commandText("contact") + "            - Contact details");
         this.echo("|  " + commandText("resume") + "             - View Résumé/Use "+commandText("download")+" to download the Résumé;");
-        // this.echo("|");
-        //  this.echo("|  " + commandText("all") + "                - [[b;#00DE12;]Run all commands (recommended)]");
+        this.echo("|");
+        this.echo("|  " + commandText("all") + "                - [[b;#00DE12;]Run all commands (recommended)]");
         this.echo();
     },
     contact: function () {
@@ -122,7 +123,20 @@ var App = {
     },
     projects: function () {
         this.echo();
-        this.echo("|  Under construction ");
+        this.echo("|  [[g;#B2D100;]File sharing portal]");
+        this.echo("|  " + commandText("Technologies used") + ":JAVA | Spring MVC | JSP | My SQL");
+        this.echo("|");
+        this.echo("|  [[g;#B2D100;]Multi-tiered approach for Content-Based Image Retrieval using SVM classifier]");
+        this.echo("|  " + commandText("Technologies used") + ":MATLAB | SVM classifier | Image processing");
+        this.echo("|");
+        this.echo("|  [[g;#B2D100;]Publisher Subscriber application]");
+        this.echo("|  " + commandText("Technologies used") + ":C language | Multithreading | SDLC");
+        this.echo("|");
+        this.echo("|  [[g;#B2D100;]Prototype of Skype using Socket programming]");
+        this.echo("|  " + commandText("Technologies used") + ":C language | XML | SDLC | XPath | XSLT");
+        this.echo("|");
+        this.echo("|  [[g;#B2D100;]Bucket list places to visit app]");
+        this.echo("|  " + commandText("Technologies used") + ":iOS application | Swift | Auto layout | Core Location | Core Data | Mobile App");
         this.echo();
     },
     skill: function () {
@@ -246,6 +260,13 @@ var App = {
     },
     download: function () {
        document.getElementById("dwn").click(); 
+    },
+    research: function () {
+        this.echo();
+        this.echo("|  [[g;#B2D100;]Publications]");
+        this.echo("|  " + commandText('Multi-tiered approach for Content based image retrieval using SVM classifier') + " - (April 2014)");
+        this.echo("|  Journal: International Journal of Advanced Computational Engineering and Networking");
+        this.echo();
     },
 };
 
