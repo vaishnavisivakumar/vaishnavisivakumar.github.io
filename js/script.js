@@ -20,7 +20,7 @@ var App = {
         }
     },
     ls: function () {
-        this.echo("|  No files to show! Use download command to download the resume.");
+        this.echo("|  No files to show! Use download command to download the Résumé.");
     },
     rm: function (command) {
         this.echo();
@@ -59,6 +59,7 @@ var App = {
         this.echo("|  " + commandText("projects") + "           - Academic projects");
         this.echo("|  " + commandText("education") + "          - Related Coursework");
         this.echo("|  " + commandText("contact") + "            - Contact details");
+        this.echo("|  " + commandText("resume") + "             - View Résumé/Use "+commandText("download")+" to download the Résumé;");
         // this.echo("|");
         //  this.echo("|  " + commandText("all") + "                - [[b;#00DE12;]Run all commands (recommended)]");
         this.echo();
@@ -137,12 +138,12 @@ var App = {
         this.echo("|  " + commandText('C#') + "                     [[g;#D13F00;]2+ years ");
         this.echo("|");
         this.echo("|  [[g;#B2D100;]Java Technologies] ");
-        this.echo("|  " + commandText('Core Java') + "              [[g;#D13F00;]8+ years ");
-        this.echo("|  " + commandText('Spring') + "                 [[g;#D13F00;]5+ years ");
-        this.echo("|  " + commandText('J2EE') + "                   [[g;#D13F00;]6+ years ");
+        this.echo("|  " + commandText('Core Java') + "              [[g;#D13F00;]5+ years ");
+        this.echo("|  " + commandText('Spring') + "                 [[g;#D13F00;]3+ years ");
+        this.echo("|  " + commandText('J2EE') + "                   [[g;#D13F00;]5+ years ");
         this.echo("|  " + commandText('jUnit') + "                  [[g;#D13F00;]6+ years ");
-        this.echo("|  " + commandText('REST') + "                   [[g;#D13F00;]4+ years ");
-        this.echo("|  " + commandText('AWS') + "                    [[g;#D13F00;]3+ years ");
+        this.echo("|  " + commandText('REST') + "                   [[g;#D13F00;]3+ years ");
+        this.echo("|  " + commandText('AWS') + "                    [[g;#D13F00;]2+ years ");
         this.echo("|");
         this.echo("|  [[g;#B2D100;]Database] ");
         this.echo("|  " + commandText('SQL') + "                    [[g;#D13F00;]8+ years ");
